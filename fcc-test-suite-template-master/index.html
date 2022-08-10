@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <title>Survey form</title>
@@ -31,23 +30,33 @@
     <form action="" id="survey-form">
       <div>
         <label for="" id="name-label">NAME</label>
-        <input type="text" id="name" required />
-
+        <input type="text" id="name" required placeholder="Name" />
       </div>
       <div>
         <label for="" id="email-label">EMAIL</label>
-        <input type="email" id="email" required />
-
+        <input type="email" id="email" required placeholder="Email" />
       </div>
       <div>
         <label for="" id="number-label">NUMBER</label>
-        <input type="number" id="number" required min="5" max="40" />
-
+        <input
+          type="number"
+          id="number"
+          placeholder="Number"
+          required
+          min="5"
+          max="40"
+        />
       </div>
-
+      <select name="" id="dropdown">
+        <option value="">option 1</option>
+        <option value="">option 2</option>
+      </select>
+      <div>
+        <input type="radio" value="button 1" name="button_1">button 1</input>
+        <input type="radio" value="button 2" name="button_1">button 2</input>
+      </div>
     </form>
 
     <script src="js/index.js"></script>
   </body>
-
 </html>
