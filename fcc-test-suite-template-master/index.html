@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <title>Survey form</title>
@@ -38,14 +39,7 @@
       </div>
       <div>
         <label for="" id="number-label">NUMBER</label>
-        <input
-          type="number"
-          id="number"
-          placeholder="Number"
-          required
-          min="5"
-          max="40"
-        />
+        <input type="number" id="number" placeholder="Number" required min="5" max="40" />
       </div>
       <select name="" id="dropdown">
         <option value="">option 1</option>
@@ -55,8 +49,19 @@
         <input type="radio" value="button 1" name="button_1">button 1</input>
         <input type="radio" value="button 2" name="button_1">button 2</input>
       </div>
+      <div>
+        <input type="checkbox" value="checkbox 1" name="checkbox_1">checkbox 1</input>
+        <input type="checkbox" value="checkbox 2" name="checkbox_1">checkbox 2</input>
+        <input type="checkbox" value="checkbox 3" name="checkbox_1">checkbox 3</input>
+        <input type="checkbox" value="checkbox 4" name="checkbox_1">checkbox 4</input>
+        <input type="checkbox" value="checkbox 5" name="checkbox_1">checkbox 5</input>
+        <input type="checkbox" value="checkbox 6" name="checkbox_1">checkbox 6</input>
+      </div>
+      <textarea name="comments" id="comments" cols="30" rows="10">Comments</textarea>
+      <button type="submit" id="submit">Submit</button>
     </form>
 
     <script src="js/index.js"></script>
   </body>
+
 </html>
